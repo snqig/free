@@ -508,19 +508,21 @@ vless://56c13e3a-5b87-49dd-bd85-03c7f2735e41@104.18.0.0:8080?encryption=none&sec
 vless://56c13e3a-5b87-49dd-bd85-03c7f2735e41@104.18.0.0:8080?encryption=none&security=none&type=ws&host=hellosnqig.snqig0.workers.dev&path=%2F#jack-100
 vless://56c13e3a-5b87-49dd-bd85-03c7f2735e41@104.17.0.0:80?encryption=none&security=none&type=ws&host=hellosnqig.snqig0.workers.dev&path=%2F#jack-10
 vless://56c13e3a-5b87-49dd-bd85-03c7f2735e41@104.16.0.0:80?encryption=none&security=none&type=ws&host=hellosnqig.snqig0.workers.dev&path=%2F#jack-1
-hysteria://208.87.243.151:17549?protocol=udp&peer=www.bing.com&insecure=1&upmbps=50&downmbps=80&alpn=h3#United%20States_hy_6
-hysteria://108.181.24.77:11512?protocol=udp&auth=dongtaiwang.com&peer=apple.com&insecure=1&upmbps=50&downmbps=80&alpn=h3#United%20States_hy_7
-hysteria://185.22.155.71:10803?protocol=udp&peer=www.bing.com&insecure=1&upmbps=50&downmbps=80&alpn=h3#Russia_hy_8
-hysteria://208.87.243.151:17549?protocol=udp&peer=www.bing.com&insecure=1&upmbps=50&downmbps=80&alpn=h3#United%20States_hy_9
-hysteria://185.22.155.71:10803?protocol=udp&auth=dongtaiwang.com&peer=apple.com&insecure=1&upmbps=11&downmbps=55&alpn=h3#Russia_hysteria_0
-hysteria://185.22.155.71:10803?protocol=udp&auth=dongtaiwang.com&peer=apple.com&insecure=1&upmbps=11&downmbps=55&alpn=h3#Russia_hysteria_1
-hysteria://185.22.155.71:10803?protocol=udp&auth=dongtaiwang.com&peer=apple.com&insecure=1&upmbps=11&downmbps=55&alpn=h3#Russia_hysteria_2
-hysteria://185.22.155.71:10803?protocol=udp&auth=dongtaiwang.com&peer=apple.com&insecure=1&upmbps=11&downmbps=55&alpn=h3#Russia_hysteria_3
-hysteria2://dongtaiwang.com@hy2.694463.xyz:30033/?insecure=1&sni=www.bing.com#Russia_hysteria2_0
-hysteria2://dongtaiwang.com@hy2.694463.xyz:30033/?insecure=1&sni=www.bing.com#Russia_hysteria2_1
-hysteria2://dongtaiwang.com@hy2.694463.xyz:30033/?insecure=1&sni=www.bing.com#Russia_hysteria2_2
-hysteria2://dongtaiwang.com@hy2.694463.xyz:30033/?insecure=1&sni=www.bing.com#Russia_hysteria2_3
-vless://ec302de4-6b3d-4f03-a228-3c6d303ed370@1.162.51.106:37898?security=reality&flow=xtls-rprx-vision&type=tcp&sni=www.yahoo.com&encryption=none&fp=chrome&pbk=v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ&sid=e12d7fdb&headerType=none#Taiwan_vless_0
-vless://ec302de4-6b3d-4f03-a228-3c6d303ed370@1.162.51.106:37898?security=reality&flow=xtls-rprx-vision&type=tcp&sni=www.yahoo.com&encryption=none&fp=chrome&pbk=v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ&sid=e12d7fdb&headerType=none#Taiwan_vless_1
-vless://ec302de4-6b3d-4f03-a228-3c6d303ed370@1.162.51.106:37898?security=reality&flow=xtls-rprx-vision&type=tcp&sni=www.yahoo.com&encryption=none&fp=chrome&pbk=v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ&sid=e12d7fdb&headerType=none#Taiwan_vless_2
-vless://ec302de4-6b3d-4f03-a228-3c6d303ed370@1.162.51.106:37898?security=reality&flow=xtls-rprx-vision&type=tcp&sni=www.yahoo.com&encryption=none&fp=chrome&pbk=v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ&sid=e12d7fdb&headerType=none#Taiwan_vless_3
+hysteria://208.87.243.151:17549?peer=www.bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=17549&obfs=&protocol=udp&fastopen=1#United States_hy_6
+hysteria://108.181.24.77:11512?peer=apple.com&auth=dongtaiwang.com&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=11512&obfs=&protocol=udp&fastopen=1#United States_hy_7
+hysteria://185.22.155.71:10803?peer=www.bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=10803&obfs=&protocol=udp&fastopen=1#Russia_hy_8
+hysteria://208.87.243.151:17549?peer=www.bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=17549&obfs=&protocol=udp&fastopen=1#United States_hy_9
+aHR0cHM6Ly9kb25ndGFpd2FuZy5jb206ZG9uZ3RhaXdhbmcuY29tQG5haXZlMjMuY2ZjZG4zLnh5ejo0NDM=
+aHR0cHM6Ly9kb25ndGFpd2FuZy5jb206ZG9uZ3RhaXdhbmcuY29tQG5haXZlMjQuY2ZjZG4zLnh5ejo0NDM=
+hysteria://185.22.155.71:10803?peer=apple.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#Russia_hysteria_0
+hysteria://185.22.155.71:10803?peer=apple.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#Russia_hysteria_1
+hysteria://185.22.155.71:10803?peer=apple.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#Russia_hysteria_2
+hysteria://185.22.155.71:10803?peer=apple.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#Russia_hysteria_3
+hysteria2://dongtaiwang.com@hy2.694463.xyz:30033?insecure=1&sni=www.bing.com#Russia_hysteria2_0
+hysteria2://dongtaiwang.com@hy2.694463.xyz:30033?insecure=1&sni=www.bing.com#Russia_hysteria2_1
+hysteria2://dongtaiwang.com@hy2.694463.xyz:30033?insecure=1&sni=www.bing.com#Russia_hysteria2_2
+hysteria2://dongtaiwang.com@hy2.694463.xyz:30033?insecure=1&sni=www.bing.com#Russia_hysteria2_3
+vless://ec302de4-6b3d-4f03-a228-3c6d303ed370@1.162.51.106:37898?security=reality&allowInsecure=0&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ&sid=e12d7fdb&sni=www.yahoo.com&serviceName=&path=&host=#Taiwan_vless_0
+vless://ec302de4-6b3d-4f03-a228-3c6d303ed370@1.162.51.106:37898?security=reality&allowInsecure=0&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ&sid=e12d7fdb&sni=www.yahoo.com&serviceName=&path=&host=#Taiwan_vless_1
+vless://ec302de4-6b3d-4f03-a228-3c6d303ed370@1.162.51.106:37898?security=reality&allowInsecure=0&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ&sid=e12d7fdb&sni=www.yahoo.com&serviceName=&path=&host=#Taiwan_vless_2
+vless://ec302de4-6b3d-4f03-a228-3c6d303ed370@1.162.51.106:37898?security=reality&allowInsecure=0&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ&sid=e12d7fdb&sni=www.yahoo.com&serviceName=&path=&host=#Taiwan_vless_3

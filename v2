@@ -1,6 +1,6 @@
 # 模版名称：ACL4SSR.ini
 # 模版最后更新日期：2025/02/10 17:22:37
-# 配置生成日期：2025-05-22 14:47:37
+# 配置生成日期：2025-05-23 10:12:44
 
 mixed-port: 7890
 allow-lan: false
@@ -50,219 +50,19 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: United States_hy_6
-    type: hysteria
-    server: 208.87.243.151
-    port: 17549
+  - name: idx-TW-Google_Cloud
+    type: vmess
+    server: www.visa.com.tw
+    port: 443
+    uuid: 973b84d1-e753-4c14-8eb5-77e31704ba39
+    network: ws
     tls: true
-    sni: www.bing.com
-    alpn:
-      - h3
-    up: '50'
-    down: '80'
-    skip-cert-verify: true
-    ip-version: dual
-    protocol: udp
-  - name: United States_hy_7
-    type: hysteria
-    server: 108.181.24.77
-    port: 11512
-    tls: true
-    sni: apple.com
-    alpn:
-      - h3
-    up: '50'
-    down: '80'
-    skip-cert-verify: true
-    ip-version: dual
-    auth-str: dongtaiwang.com
-    protocol: udp
-  - name: Russia_hy_8
-    type: hysteria
-    server: 185.22.155.71
-    port: 10803
-    tls: true
-    sni: www.bing.com
-    alpn:
-      - h3
-    up: '50'
-    down: '80'
-    skip-cert-verify: true
-    ip-version: dual
-    protocol: udp
-  - name: United States_hy_9
-    type: hysteria
-    server: 208.87.243.151
-    port: 17549
-    tls: true
-    sni: www.bing.com
-    alpn:
-      - h3
-    up: '50'
-    down: '80'
-    skip-cert-verify: true
-    ip-version: dual
-    protocol: udp
-  - name: Russia_hysteria_0
-    type: hysteria
-    server: 185.22.155.71
-    port: 10803
-    tls: true
-    sni: apple.com
-    alpn:
-      - h3
-    up: '11'
-    down: '55'
-    skip-cert-verify: true
-    ip-version: dual
-    auth-str: dongtaiwang.com
-    protocol: udp
-  - name: Russia_hysteria_1
-    type: hysteria
-    server: 185.22.155.71
-    port: 10803
-    tls: true
-    sni: apple.com
-    alpn:
-      - h3
-    up: '11'
-    down: '55'
-    skip-cert-verify: true
-    ip-version: dual
-    auth-str: dongtaiwang.com
-    protocol: udp
-  - name: Russia_hysteria_2
-    type: hysteria
-    server: 185.22.155.71
-    port: 10803
-    tls: true
-    sni: apple.com
-    alpn:
-      - h3
-    up: '11'
-    down: '55'
-    skip-cert-verify: true
-    ip-version: dual
-    auth-str: dongtaiwang.com
-    protocol: udp
-  - name: Russia_hysteria_3
-    type: hysteria
-    server: 185.22.155.71
-    port: 10803
-    tls: true
-    sni: apple.com
-    alpn:
-      - h3
-    up: '11'
-    down: '55'
-    skip-cert-verify: true
-    ip-version: dual
-    auth-str: dongtaiwang.com
-    protocol: udp
-  - name: Russia_hysteria2_0
-    type: hysteria2
-    server: hy2.694463.xyz
-    port: 30033
-    tls: true
-    password: dongtaiwang.com
-    sni: www.bing.com
-    skip-cert-verify: true
-    fast-open: false
-    ip-version: dual
-  - name: Russia_hysteria2_1
-    type: hysteria2
-    server: hy2.694463.xyz
-    port: 30033
-    tls: true
-    password: dongtaiwang.com
-    sni: www.bing.com
-    skip-cert-verify: true
-    fast-open: false
-    ip-version: dual
-  - name: Russia_hysteria2_2
-    type: hysteria2
-    server: hy2.694463.xyz
-    port: 30033
-    tls: true
-    password: dongtaiwang.com
-    sni: www.bing.com
-    skip-cert-verify: true
-    fast-open: false
-    ip-version: dual
-  - name: Russia_hysteria2_3
-    type: hysteria2
-    server: hy2.694463.xyz
-    port: 30033
-    tls: true
-    password: dongtaiwang.com
-    sni: www.bing.com
-    skip-cert-verify: true
-    fast-open: false
-    ip-version: dual
-  - name: Taiwan_vless_0
-    type: vless
-    server: 1.162.51.106
-    port: 37898
-    uuid: ec302de4-6b3d-4f03-a228-3c6d303ed370
-    network: tcp
-    tls: true
-    servername: www.yahoo.com
-    flow: xtls-rprx-vision
+    servername: postage-goes-title-largely.trycloudflare.com
     skip-cert-verify: true
     client-fingerprint: chrome
-    reality-opts:
-      public-key: v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ
-      short-id: e12d7fdb
     ip-version: dual
-    udp: true
-  - name: Taiwan_vless_1
-    type: vless
-    server: 1.162.51.106
-    port: 37898
-    uuid: ec302de4-6b3d-4f03-a228-3c6d303ed370
-    network: tcp
-    tls: true
-    servername: www.yahoo.com
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ
-      short-id: e12d7fdb
-    ip-version: dual
-    udp: true
-  - name: Taiwan_vless_2
-    type: vless
-    server: 1.162.51.106
-    port: 37898
-    uuid: ec302de4-6b3d-4f03-a228-3c6d303ed370
-    network: tcp
-    tls: true
-    servername: www.yahoo.com
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ
-      short-id: e12d7fdb
-    ip-version: dual
-    udp: true
-  - name: Taiwan_vless_3
-    type: vless
-    server: 1.162.51.106
-    port: 37898
-    uuid: ec302de4-6b3d-4f03-a228-3c6d303ed370
-    network: tcp
-    tls: true
-    servername: www.yahoo.com
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ
-      short-id: e12d7fdb
-    ip-version: dual
-    udp: true
+    alterId: 0
+    cipher: none
   - name: jack-98
     type: vless
     server: 104.17.0.0
@@ -1283,28 +1083,226 @@ proxies:
       headers:
         host: hellosnqig.snqig0.workers.dev
     ip-version: dual
+  - name: United States_hy_6
+    type: hysteria
+    server: 208.87.243.151
+    port: 17549
+    tls: true
+    sni: www.bing.com
+    alpn:
+      - h3
+    up: '50'
+    down: '80'
+    skip-cert-verify: true
+    ip-version: dual
+    protocol: udp
+  - name: United States_hy_7
+    type: hysteria
+    server: 108.181.24.77
+    port: 11512
+    tls: true
+    sni: apple.com
+    alpn:
+      - h3
+    up: '50'
+    down: '80'
+    skip-cert-verify: true
+    ip-version: dual
+    auth-str: dongtaiwang.com
+    protocol: udp
+  - name: Russia_hy_8
+    type: hysteria
+    server: 185.22.155.71
+    port: 10803
+    tls: true
+    sni: www.bing.com
+    alpn:
+      - h3
+    up: '50'
+    down: '80'
+    skip-cert-verify: true
+    ip-version: dual
+    protocol: udp
+  - name: United States_hy_9
+    type: hysteria
+    server: 208.87.243.151
+    port: 17549
+    tls: true
+    sni: www.bing.com
+    alpn:
+      - h3
+    up: '50'
+    down: '80'
+    skip-cert-verify: true
+    ip-version: dual
+    protocol: udp
+  - name: Russia_hysteria_0
+    type: hysteria
+    server: 185.22.155.71
+    port: 10803
+    tls: true
+    sni: apple.com
+    alpn:
+      - h3
+    up: '11'
+    down: '55'
+    skip-cert-verify: true
+    ip-version: dual
+    auth-str: dongtaiwang.com
+    protocol: udp
+  - name: Russia_hysteria_1
+    type: hysteria
+    server: 185.22.155.71
+    port: 10803
+    tls: true
+    sni: apple.com
+    alpn:
+      - h3
+    up: '11'
+    down: '55'
+    skip-cert-verify: true
+    ip-version: dual
+    auth-str: dongtaiwang.com
+    protocol: udp
+  - name: Russia_hysteria_2
+    type: hysteria
+    server: 185.22.155.71
+    port: 10803
+    tls: true
+    sni: apple.com
+    alpn:
+      - h3
+    up: '11'
+    down: '55'
+    skip-cert-verify: true
+    ip-version: dual
+    auth-str: dongtaiwang.com
+    protocol: udp
+  - name: Russia_hysteria_3
+    type: hysteria
+    server: 185.22.155.71
+    port: 10803
+    tls: true
+    sni: apple.com
+    alpn:
+      - h3
+    up: '11'
+    down: '55'
+    skip-cert-verify: true
+    ip-version: dual
+    auth-str: dongtaiwang.com
+    protocol: udp
+  - name: Russia_hysteria2_0
+    type: hysteria2
+    server: hy2.694463.xyz
+    port: 30033
+    tls: true
+    password: dongtaiwang.com
+    sni: www.bing.com
+    skip-cert-verify: true
+    fast-open: false
+    ip-version: dual
+  - name: Russia_hysteria2_1
+    type: hysteria2
+    server: hy2.694463.xyz
+    port: 30033
+    tls: true
+    password: dongtaiwang.com
+    sni: www.bing.com
+    skip-cert-verify: true
+    fast-open: false
+    ip-version: dual
+  - name: Russia_hysteria2_2
+    type: hysteria2
+    server: hy2.694463.xyz
+    port: 30033
+    tls: true
+    password: dongtaiwang.com
+    sni: www.bing.com
+    skip-cert-verify: true
+    fast-open: false
+    ip-version: dual
+  - name: Russia_hysteria2_3
+    type: hysteria2
+    server: hy2.694463.xyz
+    port: 30033
+    tls: true
+    password: dongtaiwang.com
+    sni: www.bing.com
+    skip-cert-verify: true
+    fast-open: false
+    ip-version: dual
+  - name: Taiwan_vless_0
+    type: vless
+    server: 1.162.51.106
+    port: 37898
+    uuid: ec302de4-6b3d-4f03-a228-3c6d303ed370
+    network: tcp
+    tls: true
+    servername: www.yahoo.com
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ
+      short-id: e12d7fdb
+    ip-version: dual
+    udp: true
+  - name: Taiwan_vless_1
+    type: vless
+    server: 1.162.51.106
+    port: 37898
+    uuid: ec302de4-6b3d-4f03-a228-3c6d303ed370
+    network: tcp
+    tls: true
+    servername: www.yahoo.com
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ
+      short-id: e12d7fdb
+    ip-version: dual
+    udp: true
+  - name: Taiwan_vless_2
+    type: vless
+    server: 1.162.51.106
+    port: 37898
+    uuid: ec302de4-6b3d-4f03-a228-3c6d303ed370
+    network: tcp
+    tls: true
+    servername: www.yahoo.com
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ
+      short-id: e12d7fdb
+    ip-version: dual
+    udp: true
+  - name: Taiwan_vless_3
+    type: vless
+    server: 1.162.51.106
+    port: 37898
+    uuid: ec302de4-6b3d-4f03-a228-3c6d303ed370
+    network: tcp
+    tls: true
+    servername: www.yahoo.com
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ
+      short-id: e12d7fdb
+    ip-version: dual
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - United States_hy_6
-      - United States_hy_7
-      - Russia_hy_8
-      - United States_hy_9
-      - Russia_hysteria_0
-      - Russia_hysteria_1
-      - Russia_hysteria_2
-      - Russia_hysteria_3
-      - Russia_hysteria2_0
-      - Russia_hysteria2_1
-      - Russia_hysteria2_2
-      - Russia_hysteria2_3
-      - Taiwan_vless_0
-      - Taiwan_vless_1
-      - Taiwan_vless_2
-      - Taiwan_vless_3
+      - idx-TW-Google_Cloud
       - jack-98
       - jack-91
       - jack-84
@@ -1389,28 +1387,29 @@ proxy-groups:
       - jack-119
       - jack-112
       - jack-105
+      - United States_hy_6
+      - United States_hy_7
+      - Russia_hy_8
+      - United States_hy_9
+      - Russia_hysteria_0
+      - Russia_hysteria_1
+      - Russia_hysteria_2
+      - Russia_hysteria_3
+      - Russia_hysteria2_0
+      - Russia_hysteria2_1
+      - Russia_hysteria2_2
+      - Russia_hysteria2_3
+      - Taiwan_vless_0
+      - Taiwan_vless_1
+      - Taiwan_vless_2
+      - Taiwan_vless_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 5000
     proxies:
-      - United States_hy_6
-      - United States_hy_7
-      - Russia_hy_8
-      - United States_hy_9
-      - Russia_hysteria_0
-      - Russia_hysteria_1
-      - Russia_hysteria_2
-      - Russia_hysteria_3
-      - Russia_hysteria2_0
-      - Russia_hysteria2_1
-      - Russia_hysteria2_2
-      - Russia_hysteria2_3
-      - Taiwan_vless_0
-      - Taiwan_vless_1
-      - Taiwan_vless_2
-      - Taiwan_vless_3
+      - idx-TW-Google_Cloud
       - jack-98
       - jack-91
       - jack-84
@@ -1495,28 +1494,29 @@ proxy-groups:
       - jack-119
       - jack-112
       - jack-105
+      - United States_hy_6
+      - United States_hy_7
+      - Russia_hy_8
+      - United States_hy_9
+      - Russia_hysteria_0
+      - Russia_hysteria_1
+      - Russia_hysteria_2
+      - Russia_hysteria_3
+      - Russia_hysteria2_0
+      - Russia_hysteria2_1
+      - Russia_hysteria2_2
+      - Russia_hysteria2_3
+      - Taiwan_vless_0
+      - Taiwan_vless_1
+      - Taiwan_vless_2
+      - Taiwan_vless_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - United States_hy_6
-      - United States_hy_7
-      - Russia_hy_8
-      - United States_hy_9
-      - Russia_hysteria_0
-      - Russia_hysteria_1
-      - Russia_hysteria_2
-      - Russia_hysteria_3
-      - Russia_hysteria2_0
-      - Russia_hysteria2_1
-      - Russia_hysteria2_2
-      - Russia_hysteria2_3
-      - Taiwan_vless_0
-      - Taiwan_vless_1
-      - Taiwan_vless_2
-      - Taiwan_vless_3
+      - idx-TW-Google_Cloud
       - jack-98
       - jack-91
       - jack-84
@@ -1601,27 +1601,28 @@ proxy-groups:
       - jack-119
       - jack-112
       - jack-105
+      - United States_hy_6
+      - United States_hy_7
+      - Russia_hy_8
+      - United States_hy_9
+      - Russia_hysteria_0
+      - Russia_hysteria_1
+      - Russia_hysteria_2
+      - Russia_hysteria_3
+      - Russia_hysteria2_0
+      - Russia_hysteria2_1
+      - Russia_hysteria2_2
+      - Russia_hysteria2_3
+      - Taiwan_vless_0
+      - Taiwan_vless_1
+      - Taiwan_vless_2
+      - Taiwan_vless_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - United States_hy_6
-      - United States_hy_7
-      - Russia_hy_8
-      - United States_hy_9
-      - Russia_hysteria_0
-      - Russia_hysteria_1
-      - Russia_hysteria_2
-      - Russia_hysteria_3
-      - Russia_hysteria2_0
-      - Russia_hysteria2_1
-      - Russia_hysteria2_2
-      - Russia_hysteria2_3
-      - Taiwan_vless_0
-      - Taiwan_vless_1
-      - Taiwan_vless_2
-      - Taiwan_vless_3
+      - idx-TW-Google_Cloud
       - jack-98
       - jack-91
       - jack-84
@@ -1706,27 +1707,28 @@ proxy-groups:
       - jack-119
       - jack-112
       - jack-105
+      - United States_hy_6
+      - United States_hy_7
+      - Russia_hy_8
+      - United States_hy_9
+      - Russia_hysteria_0
+      - Russia_hysteria_1
+      - Russia_hysteria_2
+      - Russia_hysteria_3
+      - Russia_hysteria2_0
+      - Russia_hysteria2_1
+      - Russia_hysteria2_2
+      - Russia_hysteria2_3
+      - Taiwan_vless_0
+      - Taiwan_vless_1
+      - Taiwan_vless_2
+      - Taiwan_vless_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - United States_hy_6
-      - United States_hy_7
-      - Russia_hy_8
-      - United States_hy_9
-      - Russia_hysteria_0
-      - Russia_hysteria_1
-      - Russia_hysteria_2
-      - Russia_hysteria_3
-      - Russia_hysteria2_0
-      - Russia_hysteria2_1
-      - Russia_hysteria2_2
-      - Russia_hysteria2_3
-      - Taiwan_vless_0
-      - Taiwan_vless_1
-      - Taiwan_vless_2
-      - Taiwan_vless_3
+      - idx-TW-Google_Cloud
       - jack-98
       - jack-91
       - jack-84
@@ -1811,27 +1813,28 @@ proxy-groups:
       - jack-119
       - jack-112
       - jack-105
+      - United States_hy_6
+      - United States_hy_7
+      - Russia_hy_8
+      - United States_hy_9
+      - Russia_hysteria_0
+      - Russia_hysteria_1
+      - Russia_hysteria_2
+      - Russia_hysteria_3
+      - Russia_hysteria2_0
+      - Russia_hysteria2_1
+      - Russia_hysteria2_2
+      - Russia_hysteria2_3
+      - Taiwan_vless_0
+      - Taiwan_vless_1
+      - Taiwan_vless_2
+      - Taiwan_vless_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - United States_hy_6
-      - United States_hy_7
-      - Russia_hy_8
-      - United States_hy_9
-      - Russia_hysteria_0
-      - Russia_hysteria_1
-      - Russia_hysteria_2
-      - Russia_hysteria_3
-      - Russia_hysteria2_0
-      - Russia_hysteria2_1
-      - Russia_hysteria2_2
-      - Russia_hysteria2_3
-      - Taiwan_vless_0
-      - Taiwan_vless_1
-      - Taiwan_vless_2
-      - Taiwan_vless_3
+      - idx-TW-Google_Cloud
       - jack-98
       - jack-91
       - jack-84
@@ -1916,6 +1919,22 @@ proxy-groups:
       - jack-119
       - jack-112
       - jack-105
+      - United States_hy_6
+      - United States_hy_7
+      - Russia_hy_8
+      - United States_hy_9
+      - Russia_hysteria_0
+      - Russia_hysteria_1
+      - Russia_hysteria_2
+      - Russia_hysteria_3
+      - Russia_hysteria2_0
+      - Russia_hysteria2_1
+      - Russia_hysteria2_2
+      - Russia_hysteria2_3
+      - Taiwan_vless_0
+      - Taiwan_vless_1
+      - Taiwan_vless_2
+      - Taiwan_vless_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1938,22 +1957,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - United States_hy_6
-      - United States_hy_7
-      - Russia_hy_8
-      - United States_hy_9
-      - Russia_hysteria_0
-      - Russia_hysteria_1
-      - Russia_hysteria_2
-      - Russia_hysteria_3
-      - Russia_hysteria2_0
-      - Russia_hysteria2_1
-      - Russia_hysteria2_2
-      - Russia_hysteria2_3
-      - Taiwan_vless_0
-      - Taiwan_vless_1
-      - Taiwan_vless_2
-      - Taiwan_vless_3
+      - idx-TW-Google_Cloud
       - jack-98
       - jack-91
       - jack-84
@@ -2038,6 +2042,22 @@ proxy-groups:
       - jack-119
       - jack-112
       - jack-105
+      - United States_hy_6
+      - United States_hy_7
+      - Russia_hy_8
+      - United States_hy_9
+      - Russia_hysteria_0
+      - Russia_hysteria_1
+      - Russia_hysteria_2
+      - Russia_hysteria_3
+      - Russia_hysteria2_0
+      - Russia_hysteria2_1
+      - Russia_hysteria2_2
+      - Russia_hysteria2_3
+      - Taiwan_vless_0
+      - Taiwan_vless_1
+      - Taiwan_vless_2
+      - Taiwan_vless_3
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses

@@ -1,36 +1,75 @@
 # 模版名称：ACL4SSR.ini
-# 模版最后更新日期：2025/02/10 17:22:37
-# 配置生成日期：2025-05-30 14:47:27
-
-mixed-port: 7890
-allow-lan: false
-mode: rule
-log-level: info
-ipv6: false
-external-controller: 0.0.0.0:9090
-dns:
-  enable: true
-  listen: 0.0.0.0:53
-  ipv6: false
-  default-nameserver:
-    - 223.5.5.5
-    - 114.114.114.114
-  nameserver:
-    - 223.5.5.5
-    - 114.114.114.114
-    - 119.29.29.29
-    - 180.76.76.76
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  fake-ip-filter:
-    - '*.lan'
-    - '*.localdomain'
-    - '*.example'
-    - '*.invalid'
-    - '*.localhost'
-    - '*.test'
-    - '*.local'
-    - '*.home.arpa'
-    - router.asus.com
-    - localhost.sec.qq.com
-    - localhost.ptlogin2.qq.com
+      - 🇩🇪[openproxylist.com] vless-DE_3
+      - 🇩🇪[openproxylist.com] vless-DE_4
+      - 🇨🇳[openproxylist.com] vmess-CN
+      - 🇩🇪[openproxylist.com] vless-DE_5
+      - 🇩🇪[openproxylist.com] vmess-DE
+      - 🇬🇧[openproxylist.com] vmess-GB_1
+      - 🇨🇦[openproxylist.com] vmess-CA
+      - 🇺🇸[openproxylist.com] vmess-US_1
+      - 🇯🇵[openproxylist.com] vmess-JP
+      - 🇩🇪[openproxylist.com] vless-DE_6
+      - 🇵🇱[openproxylist.com] ss-PL
+      - 🇦🇺[openproxylist.com] vless-AU
+      - 🇭🇰[openproxylist.com] vless-HK
+      - 🇭🇰[openproxylist.com] vmess-HK_3
+      - 🇸🇬[openproxylist.com] vless-SG_1
+      - 🇫🇷[openproxylist.com] vless-FR_1
+      - 🇺🇸[openproxylist.com] ss-US_1
+      - 🇹🇼[openproxylist.com] trojan-TW
+      - 🇺🇸[openproxylist.com] vless-US_2
+      - 🇩🇪[openproxylist.com] vless-DE_7
+      - 🇸🇬[openproxylist.com] vless-SG_2
+      - 🇭🇰[openproxylist.com] vmess-HK_4
+      - 🇺🇸[openproxylist.com] vmess-US_2
+      - 🇸🇬[openproxylist.com] vless-SG_3
+      - 🇺🇸[openproxylist.com] ss-US_2
+      - 🇰🇷[openproxylist.com] ss-KR
+      - 🇳🇱[openproxylist.com] vmess-NL_1
+      - 🇺🇸[openproxylist.com] vless-US_3
+      - 🇯🇵[openproxylist.com] vless-JP
+      - 🇮🇷[openproxylist.com] vmess-IR
+      - 🇮🇩[openproxylist.com] vless-ID
+      - 🇮🇳[openproxylist.com] ss-IN
+      - 🇺🇸[openproxylist.com] trojan-US_2
+      - 🇭🇰[openproxylist.com] vmess-HK_5
+      - 🇺🇸[openproxylist.com] trojan-US_3
+      - 🇰🇷[openproxylist.com] vmess-KR
+      - 🇸🇬[openproxylist.com] vless-SG_4
+      - 🇮🇷[openproxylist.com] vless-IR
+      - 🇸🇬[openproxylist.com] ss-SG
+      - 🇷🇺[openproxylist.com] vless-RU
+      - 🇬🇧[openproxylist.com] vless-GB_2
+      - 🇷🇺[openproxylist.com] ss-RU
+      - 🇺🇸[openproxylist.com] ss-US_3
+      - 🇭🇰[openproxylist.com] vmess-HK_6
+      - 🇳🇱[openproxylist.com] vmess-NL_2
+      - 🇭🇺[openproxylist.com] vmess-HU
+      - 🇸🇬[openproxylist.com] vless-SG_5
+      - 🇺🇸[openproxylist.com] vless-US_4
+      - 🇺🇸[openproxylist.com] trojan-US_4
+      - 🇫🇷[openproxylist.com] vless-FR_2
+      - 🇬🇧[openproxylist.com] vless-GB_3
+      - 🇱🇹[openproxylist.com] vless-LT_1
+      - 🇺🇸[openproxylist.com] vless-US_5
+      - 🇱🇹[openproxylist.com] vless-LT_2
+      - 🇺🇸[openproxylist.com] vless-US_6
+      - 🇺🇸[openproxylist.com] vless-US_7
+      - 🇺🇸[openproxylist.com] vless-US_8
+      - 🇺🇸[openproxylist.com] vless-US_9
+      - 🇱🇻[openproxylist.com] ss-LV
+      - 🇹🇷[openproxylist.com] vless-TR_3
+      - 🇺🇸[openproxylist.com] vless-US_10
+      - 🇺🇸[openproxylist.com] trojan-US_5
+      - 🇺🇸[openproxylist.com] vless-US_11
+      - 🇺🇸[openproxylist.com] trojan-US_6
+      - 🇺🇸[openproxylist.com] trojan-US_7
+      - 🇱🇹[openproxylist.com] vless-LT_3
+      - 🇳🇱[openproxylist.com] ss-NL_2
+      - 🇺🇸[openproxylist.com] trojan-US_8
+      - 🇬🇧[openproxylist.com] vmess-GB_2
+      - 🇧🇷[openproxylist.com] vless-BR_1
+      - 🇺🇸[openproxylist.com] trojan-US_9
+      - 🇺🇸[openproxylist.com] trojan-US_10
+      - 🇫🇷[openproxylist.com] vless-FR_3
+      - 🇩🇪[openproxylist.com] vless-DE_8
